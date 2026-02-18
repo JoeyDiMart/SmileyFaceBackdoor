@@ -136,6 +136,8 @@ sudo install -v -m 644 vsftpd.conf /etc
 ---
 
 ## What is the exploit?
+1. First sign of tampering was this code was found from 'str.c' and you can tell in the else if condition if the username
+contains 0x3a and 0x29 (which is hex for ':' and ')' then call the function "vsf_sysutil_extra()"
 ```c
 int str_contains_space(const struct mystr* p_str)
 {
