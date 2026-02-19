@@ -132,6 +132,9 @@ sudo install -v -m 644 vsftpd.conf /etc
 
 ## Set up the CTF (Python)
 - Note whoever the FTP server is running on will have to run "sudo vsftpd /etc/vsftpd.conf"
+- to stop the FTP server: "sudo pkill vsftpd"
+- to close port 6200: "sudo systemctl stop 6200"
+- check testFTP.py for my Python file with comments explaining the code, ExploitFTP.py will be made during the meeting
 
 ---
 
