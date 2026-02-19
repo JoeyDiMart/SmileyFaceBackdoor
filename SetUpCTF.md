@@ -131,7 +131,7 @@ sudo install -v -m 644 vsftpd.conf /etc
 ---
 
 ## Set up the CTF (Python)
-- Note whoever the FTP server is running on will have to run "vsftpd" 
+- Note whoever the FTP server is running on will have to run "sudo vsftpd /etc/vsftpd.conf"
 
 ---
 
@@ -158,3 +158,4 @@ int str_contains_space(const struct mystr* p_str)
 }
 
 ```
+
