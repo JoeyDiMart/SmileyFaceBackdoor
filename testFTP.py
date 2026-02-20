@@ -14,7 +14,6 @@ PASSWORD = ''
 USE_PASSIVE = False  # if connection fails set this to true idk
 
 
-
 ftp = FTP()  # create an FTP object
 ftp.connect(IP_addr, PORT)
 ftp.set_pasv(USE_PASSIVE)
