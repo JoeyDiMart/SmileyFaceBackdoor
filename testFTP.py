@@ -7,10 +7,10 @@ from ftplib import FTP  # import so python can handle FTP protocol stuff
 
 
 ##### Here lets put all the variables
-IP_addr = '192.168.4.186'
+IP_addr = '10.7.0.2'
 PORT = 21
-USER = ''
-PASSWORD = ''
+USER = 'anonymous'
+PASSWORD = 'anonymous'
 USE_PASSIVE = False  # if connection fails set this to true idk
 
 
